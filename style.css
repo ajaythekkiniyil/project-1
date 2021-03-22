@@ -1,0 +1,58 @@
+ @media (min-width: 2560px){
+    .header-banner {
+        height: 1106px;
+    }
+    .col-lg-9.leftSection {
+        padding-top: 922px;
+    }
+    .col-lg-3.rightSection {
+        padding-top: 640px;
+    }
+    /*.row {
+        margin-left: -231px;
+    } */
+}
+section{
+    font-family: 'Montserrat';
+}
+.amrita-color{
+    color: #AF0C3E;
+}
+.header-banner{
+    background-image: url(/images/international\ Head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .leftSection{
+    padding-top: 466px;
+} 
+.leftSection h1{
+    color: #FFD92A;
+}
+.rightSection {
+    padding-top: 154px;
+}
+.formContainer{
+    height: 425px;
+    border-radius: 14px;
+}
+form h1{
+    padding-top: 21px;
+    padding-left: 10px;
+}
+.form-group {
+    padding-left: 10px;
+    padding-right: 9px;
+    height: 34px;
+
+}
+.form-control{
+    height: 41px;
+}
+button.btn.btn-block {
+    color: #AF0C3E;
+    border: 1px solid;
+    width: 210px;
+    border-radius: 29px;
+    margin-left: 8px;
+}
