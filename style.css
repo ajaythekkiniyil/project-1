@@ -1,17 +1,34 @@
- @media (min-width: 2560px){
-    .header-banner {
-        height: 1106px;
+  @media (min-width: 1600px){
+.container {
+    max-width: 1140px;
+    left: 2px;
+    position: relative;
+    padding-top: 153px;
     }
-    .col-lg-9.leftSection {
-        padding-top: 922px;
+    .container .row{
+        padding-top: 0px;
+        margin-bottom: 54px;
+        margin-left: -52px;
+        padding-left: 18px;
     }
-    .col-lg-3.rightSection {
-        padding-top: 640px;
+    .bg-white{
+        margin-left: 107px;}
+    .col-lg-9 .leftSection{
+        padding-top: 427px;
+        padding-left: 42px;
     }
-    /*.row {
-        margin-left: -231px;
-    } */
+    .part6 {
+        padding-left: 8rem!important;
+    }
+    .navbar {
+        /* position: relative; */
+        margin-top: -207px;
+    }
+    
 }
+
+
+
 section{
     font-family: 'Montserrat';
 }
@@ -19,18 +36,19 @@ section{
     color: #AF0C3E;
 }
 .header-banner{
-    background-image: url(/images/international\ Head.png);
+    background-image: url(international\ Head.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
  .leftSection{
     padding-top: 466px;
+    padding-bottom: 10px;
 } 
 .leftSection h1{
     color: #FFD92A;
 }
 .rightSection {
-    padding-top: 154px;
+    padding-top: 150px;
 }
 .formContainer{
     height: 425px;
