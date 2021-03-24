@@ -1,31 +1,11 @@
-  @media (min-width: 1600px){
-.container {
-    max-width: 1140px;
-    left: 2px;
-    position: relative;
-    padding-top: 153px;
+ @media (man-width: 1600px){
+     .container{
+        padding-left: 1rem!important;
+     }
+    .row{
+        padding-left: 3rem!important;
     }
-    .container .row{
-        padding-top: 0px;
-        margin-bottom: 54px;
-        margin-left: -52px;
-        padding-left: 18px;
-    }
-    .bg-white{
-        margin-left: 107px;}
-    .col-lg-9 .leftSection{
-        padding-top: 427px;
-        padding-left: 42px;
-    }
-    .part6 {
-        padding-left: 8rem!important;
-    }
-    .navbar {
-        /* position: relative; */
-        margin-top: -207px;
-    }
-    
-}
+} 
 
 
 
@@ -73,4 +53,23 @@ button.btn.btn-block {
     width: 210px;
     border-radius: 29px;
     margin-left: 8px;
+}
+.banner-img2{
+    background-image: url(banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 597px;
+    margin-top: 130px;
+}
+.img2 {
+    padding-top: 0px;
+    margin-left: -58px;
+    margin-top: -121px;
+}
+.lipsum {
+    margin-left: -119px;
+}
+.logo {
+    margin-left: -196px;
+    padding: 79px;
 }
