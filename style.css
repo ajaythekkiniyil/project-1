@@ -1,5 +1,5 @@
 .header-banner{
-    /* background-image: url(international\ Head.png); */
+     /* background-image: url(international\ Head.png); */
     background: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@
 .amrita-color{
     color: #AF0C3E;
 }
-.leftSection h1{
+.leftSection h4{
     color: #FFD92A;
 }
 button.btn.btn-block {
@@ -19,22 +19,72 @@ button.btn.btn-block {
     border: 1px solid;
     border-radius: 29px;
     font-weight: bold;
+    font-size: small;
 }
 .banner-img2{
     background-image: url(banner2.png);
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover; 
+    height: 605px;
 }
+
 .banner-img-3{
-    background: linear-gradient(to right,#a4123eb9  ,#af0c3dab ), url('amrita_univerty\ 1.png');
+    background: linear-gradient(to right,#a4123ee8  ,#af0c3da2 ), url('amrita_univerty\ 1.png');
     background-repeat: no-repeat; 
     background-size: cover;
+    height: 550px;
+    background-position-y: center;
 }
-@media (max-width:800px){
-    .logo{
+footer ul{
+   list-style: none;
+}
+footer ul a{
+    color: black;
+}
+.footer-col{
+    font-size: smaller;
+}
+.footer-col h5{
+    font-size: medium;
+}
+@media (max-width:800px){    
+    .formText br {
         display: none;
     }
+    .joinAmrita p br{
+        display: none;
+    }
+    .quoteText p br{
+        display: none;
+    }
+    .boyimage .container .col-lg-6{
+        margin-top: -158px;
+        position: relative;
+    }
+    .playVideo img{
+        top: -19px;
+        width: 58px;
+    }
+    .boyimage .pic {
+        display: none;
+    }
+    .boyimage p br{
+        display: none;
+    }
+    .videoContainer br{
+        display: none;
+    }
+    .logoText{
+        top: -325px;
+        position: relative;
+    }
+    .muslim{
+        display:none ;
+    }
     .navbars{
+        display: none;
+    }
+    .lipsum{
         display: none;
     }
     .lipsum h1{
@@ -49,9 +99,12 @@ button.btn.btn-block {
     .admission{
         align-items: center;
     }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
-.section{
-    /* font-family: 'Montserrat'; */
+/* font-family: 'Montserrat'; */
 }
 /* 
  .leftSection{
