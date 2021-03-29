@@ -1,5 +1,5 @@
 .header-banner{
-    background-image: url('amrita-banner1.jpeg');
+    background-image:linear-gradient(to right,#a4123ee8  ,#af0c3da2 ), url('amrita-banner1.jpeg');
     /* background: black; */
     background-repeat: no-repeat;
     background-size: cover;
