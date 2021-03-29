@@ -79,6 +79,10 @@ footer ul a{
     .logoText{
         top: -325px;
         position: relative;
+        font-size:x-small;
+    }
+    .logoText br{
+        display: none;
     }
     .muslim .logo{
         display:none ;
