@@ -84,6 +84,9 @@ footer ul a{
     .logoText br{
         display: none;
     }
+    .muslim .girl img{
+        height: 450px;
+    }
     .muslim .logo{
         display:none ;
     }
