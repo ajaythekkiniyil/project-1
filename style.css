@@ -46,7 +46,7 @@ footer ul a{
     line-height: 30px;
 }
 .footer-col h5{
-    color: #AF0C3E;
+    /* color: #AF0C3E; */
     font-size: medium;
 }
 @media (max-width:800px){    
