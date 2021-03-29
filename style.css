@@ -1,6 +1,6 @@
 .header-banner{
-     /* background-image: url(international\ Head.png); */
-    background: black;
+    background-image: url('amrita-banner1.jpeg');
+    /* background: black; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -80,7 +80,7 @@ footer ul a{
         top: -325px;
         position: relative;
     }
-    .muslim{
+    .muslim .logo{
         display:none ;
     }
     .navbars{
