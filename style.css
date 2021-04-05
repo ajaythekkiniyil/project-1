@@ -25,11 +25,11 @@ button.btn.btn-block {
     background-image: url(banner2.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 605px;
+    height: 622px;
 }
 
 .banner-img-3{
-    background: linear-gradient(to right,#a4123ee8  ,#af0c3da2 ), url('amrita_univerty\ 1.png');
+    background: linear-gradient(to right,#a4123ece  ,#af0c3dab ), url('amrita_univerty\ 1.png');
     background-repeat: no-repeat; 
     background-size: cover;
     height: 550px;
@@ -49,6 +49,7 @@ footer ul a{
     /* color: #AF0C3E; */
     font-size: medium;
 }
+
 @media (max-width:800px){    
     .formText br {
         display: none;
@@ -113,3 +114,28 @@ footer ul a{
         flex-direction: column;
     }
 }
+
+@media (max-width:768px){  
+    .joinAmritaimg4{
+        position: relative;
+        left: 65px;
+    }
+    .textArjun .text{
+        font-size: small;
+    }
+    .key h1{
+        font-size: medium;
+    }
+    
+    
+}
+@media (max-width:320px){  
+    .joinAmritaimg4{
+        position: relative;
+        left: 65px;
+    }
+    .textArjun .text{
+        font-size: small;
+    }
+}
+
