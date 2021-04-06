@@ -29,7 +29,7 @@ button.btn.btn-block {
 }
 
 .banner-img-3{
-    background: linear-gradient(to right,#a4123ece  ,#af0c3dab ), url('amrita_univerty\ 1.png');
+    background: linear-gradient(to right,#df0546bd  ,#af0c3dab ), url('amrita_univerty\ 1.png');
     background-repeat: no-repeat; 
     background-size: cover;
     height: 550px;
@@ -74,6 +74,7 @@ footer ul a{
     .boyimage p br{
         display: none;
     }
+    
     .videoContainer br{
         display: none;
     }
@@ -125,7 +126,7 @@ footer ul a{
         font-size: small;
     }
     .key h1{
-        font-size: medium;
+        font-size: x-large;
     }
     
     
@@ -138,5 +139,6 @@ footer ul a{
     .textArjun .text{
         font-size: small;
     }
+   
 }
 
