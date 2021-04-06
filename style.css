@@ -32,7 +32,7 @@ button.btn.btn-block {
     background: linear-gradient(to right,#df0546bd  ,#af0c3dab ), url('amrita_univerty\ 1.png');
     background-repeat: no-repeat; 
     background-size: cover;
-    height: 550px;
+    height: 530px;
     background-position-y: center;
 }
 footer ul{
@@ -130,8 +130,9 @@ footer ul a{
     }
     
     
+    
 }
-@media (max-width:320px){  
+@media (max-width:375px){  
     .joinAmritaimg4{
         position: relative;
         left: 65px;
@@ -139,6 +140,17 @@ footer ul a{
     .textArjun .text{
         font-size: small;
     }
-   
+    
+    .boyimage h1{
+        display:none ;
+    }
+    .boyimage .topline{
+        display: none;
+    }
+    .boyimage p{
+        top: 120px;
+        position: relative;
+    }
+
 }
 
