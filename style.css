@@ -28,11 +28,10 @@ button.btn.btn-block {
 }
 
 .banner-img-3{
-    background: linear-gradient(to right,#df0546bd  ,#af0c3dab ), url('amrita_univerty\ 1.png');
+    background: linear-gradient(to right,#ff044fbd  ,#af0c3dab ), url('amrita_univerty\ 1.png');
     background-repeat: no-repeat; 
     background-size: cover;
-    /* height: 530px; */
-    /* background-position-y: center; */
+     background-position-y: center;
 }
 .dualdegreeText{
     font-size: 22.8px;
@@ -74,6 +73,11 @@ footer ul a{
         max-height: 490px;
     }
 
+}
+@media (max-width:991px){
+    .dualdegree .dualdegreeBoyimg .pic{
+        display: none;
+    }
 }
 @media (max-width:800px){    
     .navbars{
