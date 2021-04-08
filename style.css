@@ -119,39 +119,14 @@ footer ul a{
     font-size: medium;
 }
 
-/* @media (max-width:1900px){ 
-    .videoContainer br{
-        display: none;
-    }
-    .dualdegree .text-white{
-        top: -8px;
-        position: relative;
-    }   
-    .dualdegree p br{
-        display: none;
-    }
-    .dualdegree .dualdegreeBoyimg .pic{
-        width: 510px;
-    } 
-    .dualdegreeRow{
-        max-height: 490px;
-    }
-
-
-} */
-/* @media(max-width:991px){
-    .dualdegree .dualdegreeBoyimg .pic{
-        display: none;
-    }
-    .videosection1{
-        height: 268px;
-    }
-} */
 @media (max-width:991px){    
     .navbars{
         display: none;
     }
     .formText br {
+        display: none;
+    }
+    .videoContainer p br{
         display: none;
     }
     .joinAmrita p br{
@@ -226,8 +201,6 @@ footer ul a{
         /* top: 96px; */
         line-height: 30px;
     }
-    
-    
     .logoText{
         top: -325px;
         position: relative;
@@ -264,41 +237,3 @@ footer ul a{
         flex-direction: column;
     }
 }
-
-/* @media (max-width:768px){  
-    .joinAmritaimg4{
-        position: relative;
-        left: 65px;
-    }
-    .textArjun .text{
-        font-size: small;
-    }
-    .key h1{
-        font-size: x-large;
-    }
-    
-    
-    
-}
-@media (max-width:320px){  
-    .joinAmritaimg4{
-        position: relative;
-        left: 65px;
-    }
-    .textArjun .text{
-        font-size: small;
-    }
-    
-    .boyimage h1{
-        display:none ;
-    }
-    .boyimage .topline{
-        display: none;
-    }
-    .boyimage p{
-        top: 120px;
-        position: relative;
-    }
-
-} */
-
