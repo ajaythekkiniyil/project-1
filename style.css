@@ -144,7 +144,7 @@ footer ul a{
         height: 268px;
     }
 } */
-@media (max-width:800px){    
+@media (max-width:991px){    
     .navbars{
         display: none;
     }
