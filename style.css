@@ -118,7 +118,22 @@ footer ul a{
     /* color: #AF0C3E; */
     font-size: medium;
 }
-
+.joinTheProgram{
+    padding-right: 10rem!important;
+}
+.quoteText h1{
+    font-size: 100px; 
+    line-height: 0%; 
+    padding-top: 14rem!important; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.quoteText .textArjun{
+    color: #B30F56; 
+    font-size: 30px;
+    font-weight: bold;
+     position: relative;
+    left: -155px;
+}
 @media (max-width:991px){    
     .navbars{
         display: none;
@@ -198,8 +213,7 @@ footer ul a{
 
     .KeyDifferentiators h1{
         font-size: 30px;
-        /* top: 96px; */
-        line-height: 30px;
+        line-height: 35px;
     }
     .logoText{
         top: -325px;
@@ -232,8 +246,24 @@ footer ul a{
     .admission{
         align-items: center;
     }
-    .flex-container {
-        display: flex;
-        flex-direction: column;
+    .joinTheProgram{
+        padding-right: 0rem!important;
     }
+    .quoteText br{
+        display: none;
+    }
+    .quoteText h1{
+        top: -20%;
+        position: relative;
+    }
+    .quoteText p{
+        top: -15%;
+        position: relative;
+    }
+    .quoteText .textArjun{
+        font-size: 25px;
+        left: 0px;
+    }
+    
+    
 }
