@@ -40,6 +40,67 @@ button.btn.btn-block {
 .dualdegreeRow{
     max-height: 560px;
 }
+.videosection1{
+   background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pic-v1.jpg');
+   background-size: cover;
+   height: 31vh;
+}
+.videosection2{
+    background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pic-v2.jpg');
+    background-size: cover;
+    height: 31vh;
+ }
+ .videosection3{
+    background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pic-v3.jpg');
+    background-size: cover;
+    height: 31vh;
+ }
+ .videosection4{
+     background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pic-v4.jpg');
+     background-size: cover;
+     height: 31vh;
+  }
+
+  .videosection2 img{
+    position: absolute;
+    top: 48%;
+    left: 14%;
+  }
+  .videosection2 p{
+    position: absolute;
+    top: 61%;
+    left: 6%;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .videosection3 img{
+    position: absolute;
+    top: 48%;
+    left: 14%;
+  }
+  .videosection3 p{
+    position: absolute;
+    top: 61%;
+    left: 12%;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .videosection4 img{
+    position: absolute;
+    top: 48%;
+    left: 14%;
+  }
+  .videosection4 p{
+    position: absolute;
+    top: 61%;
+    left: 7%;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+
 footer ul{
    list-style: none;
 }
@@ -74,7 +135,7 @@ footer ul a{
     }
 
 }
-@media (max-width:991px){
+@media(max-width:991px){
     .dualdegree .dualdegreeBoyimg .pic{
         display: none;
     }
@@ -92,10 +153,7 @@ footer ul a{
     .quoteText p br{
         display: none;
     }
-    .playVideo img{
-        top: -19px;
-        width: 58px;
-    }
+    
     .dualdegree .text-white{
         top: -10px;
         position: relative;
@@ -110,9 +168,61 @@ footer ul a{
     .dualdegree .dualdegreeBoyimg .pic{
         display: none;
     }
-    .videoContainer br{
-        display: none;
+
+    .videosection1{
+        max-width: 375px;
+        height: 247px;
     }
+    .videosection2{
+        max-width: 375px;
+        height: 247px;
+    }
+    .videosection2 img{
+        position: absolute;
+        top: 51%;
+        left: 8%;
+    }
+    .videosection2 p{
+        font-size: 14px;
+        line-height: 21px;
+        left: 46px;
+    }
+
+    .videosection3{
+        max-width: 375px;
+        height: 247px;
+    }
+    .videosection3 img{
+        position: absolute;
+        top: 51%;
+        left: 8%;
+    }
+    .videosection3 p{
+        font-size: 14px;
+        line-height: 21px;
+        left: 46px;
+    }
+
+    .videosection4{
+        max-width: 375px;
+        height: 247px;
+    }
+    .videosection4 img{
+        position: absolute;
+        top: 51%;
+        left: 8%;
+    }
+    .videosection4 p{
+        font-size: 14px;
+        line-height: 21px;
+        left: -1px;
+    }
+
+
+
+    /* .videoContainer br{
+        display: none;
+    } */
     .logoText{
         top: -325px;
         position: relative;
