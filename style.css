@@ -1,6 +1,5 @@
 .header-banner{
     background-image:linear-gradient(to right,#a4123ee8  ,#af0c3da2 ),   url('amrita-banner1.jpeg');
-    /* background: black; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -32,8 +31,15 @@ button.btn.btn-block {
     background: linear-gradient(to right,#df0546bd  ,#af0c3dab ), url('amrita_univerty\ 1.png');
     background-repeat: no-repeat; 
     background-size: cover;
-    height: 530px;
-    background-position-y: center;
+    /* height: 530px; */
+    /* background-position-y: center; */
+}
+.dualdegreeText{
+    font-size: 22.8px;
+    top: 96px;
+}
+.dualdegreeRow{
+    max-height: 560px;
 }
 footer ul{
    list-style: none;
@@ -54,6 +60,20 @@ footer ul a{
     .videoContainer br{
         display: none;
     }
+    .dualdegree .text-white{
+        top: -8px;
+        position: relative;
+    }   
+    .dualdegree p br{
+        display: none;
+    }
+    .dualdegree .dualdegreeBoyimg .pic{
+        width: 510px;
+    } 
+    .dualdegreeRow{
+        max-height: 490px;
+    }
+
 }
 @media (max-width:800px){    
     .navbars{
@@ -68,18 +88,22 @@ footer ul a{
     .quoteText p br{
         display: none;
     }
-    .boyimage .container .col-lg-6{
-        margin-top: -158px;
-        position: relative;
-    }
     .playVideo img{
         top: -19px;
         width: 58px;
     }
-    .boyimage .pic {
+    .dualdegree .text-white{
+        top: -10px;
+        position: relative;
+    }   
+    .dualdegreeText{
+        font-size: 17.5px;
+        top: 96px;
+    }
+    .dualdegree p br{
         display: none;
     }
-    .boyimage p br{
+    .dualdegree .dualdegreeBoyimg .pic{
         display: none;
     }
     .videoContainer br{
