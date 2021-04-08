@@ -100,7 +100,10 @@ button.btn.btn-block {
     line-height: 38px;
   }
 
-
+  .KeyDifferentiators h1{
+    font-size: 50px; line-height: 50px;
+    }
+    
 footer ul{
    list-style: none;
 }
@@ -218,7 +221,13 @@ footer ul a{
         left: -1px;
     } */
 
-
+    .KeyDifferentiators h1{
+        font-size: 30px;
+        /* top: 96px; */
+        line-height: 30px;
+    }
+    
+    
     .logoText{
         top: -325px;
         position: relative;
