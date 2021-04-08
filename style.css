@@ -76,12 +76,12 @@ button.btn.btn-block {
 
   .videosection3 img{
     position: absolute;
-    top: 48%;
+    top: 49%;
     left: 14%;
   }
   .videosection3 p{
     position: absolute;
-    top: 61%;
+    top: 63%;
     left: 12%;
     font-size: 32px;
     line-height: 38px;
@@ -116,7 +116,7 @@ footer ul a{
     font-size: medium;
 }
 
-@media (max-width:1024px){ 
+/* @media (max-width:1900px){ 
     .videoContainer br{
         display: none;
     }
@@ -134,12 +134,16 @@ footer ul a{
         max-height: 490px;
     }
 
-}
-@media(max-width:991px){
+
+} */
+/* @media(max-width:991px){
     .dualdegree .dualdegreeBoyimg .pic{
         display: none;
     }
-}
+    .videosection1{
+        height: 268px;
+    }
+} */
 @media (max-width:800px){    
     .navbars{
         display: none;
@@ -169,7 +173,7 @@ footer ul a{
         display: none;
     }
 
-    .videosection1{
+    /* .videosection1{
         height: 268px;
     }
     .videosection2{
@@ -212,13 +216,9 @@ footer ul a{
         font-size: 14px;
         line-height: 21px;
         left: -1px;
-    }
-
-
-
-    /* .videoContainer br{
-        display: none;
     } */
+
+
     .logoText{
         top: -325px;
         position: relative;
