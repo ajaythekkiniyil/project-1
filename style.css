@@ -190,6 +190,9 @@ footer ul a{
         font-size: 25px;
         left: 0px;
     }
+    .footerleft{
+        font-size: 13px;
+    }
     .footerleft ul li{
         display:inline;
     }
@@ -208,7 +211,7 @@ footer ul a{
         height: 59px;
         top: -56px;
         width: 142px;
-        left: -24px;
+        left: -19px;
         border-radius: 30px;
     }
     
