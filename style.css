@@ -40,26 +40,6 @@ button.btn.btn-block {
 .dualdegreeRow{
     max-height: 560px;
 }
-.videosection1{
-   background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pic-v1.jpg');
-   background-size: cover;
-   height: 31vh;
-}
-.videosection2{
-    background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pic-v2.jpg');
-    background-size: cover;
-    height: 31vh;
- }
- .videosection3{
-    background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pic-v3.jpg');
-    background-size: cover;
-    height: 31vh;
- }
- .videosection4{
-     background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pic-v4.jpg');
-     background-size: cover;
-     height: 31vh;
-  }
 
   .KeyDifferentiators h1{
     font-size: 50px; line-height: 50px;
@@ -114,12 +94,12 @@ footer ul a{
 }
 .footerbtn{
     margin-left: 188px;
-    top: -36px; 
+    top: -41px; 
     position: relative;
     color: #ffffff; border: 1px solid;
     border-radius: 20px;
     width: 123px;
-    height: 38px;
+    height: 46px;
     background: linear-gradient( #B10F56 2.8%, #D00846); font-size: smaller;
 }
 
@@ -157,52 +137,6 @@ footer ul a{
     .dualdegree .dualdegreeBoyimg .pic{
         display: none;
     }
-
-    /* .videosection1{
-        height: 268px;
-    }
-    .videosection2{
-        height: 268px;
-    }
-    .videosection2 img{
-        position: absolute;
-        top: 51%;
-        left: 8%;
-    }
-    .videosection2 p{
-        font-size: 14px;
-        line-height: 21px;
-        left: 46px;
-    }
-
-    .videosection3{
-        height: 268px;
-    }
-    .videosection3 img{
-        position: absolute;
-        top: 51%;
-        left: 8%;
-    }
-    .videosection3 p{
-        font-size: 14px;
-        line-height: 21px;
-        left: 46px;
-    }
-
-    .videosection4{
-        height: 268px;
-    }
-    .videosection4 img{
-        position: absolute;
-        top: 51%;
-        left: 8%;
-    }
-    .videosection4 p{
-        font-size: 14px;
-        line-height: 21px;
-        left: -1px;
-    } */
-
     .KeyDifferentiators h1{
         font-size: 30px;
         line-height: 35px;
@@ -256,9 +190,10 @@ footer ul a{
         font-size: 25px;
         left: 0px;
     }
-    .footerleft ul li{
-        display:inline;
+    .footerleft{
+        font-size: 13px;
     }
+    
     .fw-content ul li{
         display: inline;
     }
@@ -271,11 +206,21 @@ footer ul a{
         width: 284px;
     }
     .footerbtn{
-        height: 59px;
-        top: -56px;
+        height: 61px;
+        top: -60px;
         width: 142px;
-        left: -42px;
+        left: -19px;
         border-radius: 30px;
+    }
+    .footer-col .footerleft {
+        font-weight: 500;
+        font-size: 15px;
     }
     
 }
+@media (max-width:767px){
+    .footerleft ul li{
+        display:inline;
+    } 
+}
+
