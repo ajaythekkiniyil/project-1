@@ -1,3 +1,4 @@
+
 .header-banner{
     background-image:linear-gradient(to right,#a4123ee8  ,#af0c3da2 ),   url('amrita-banner1.jpeg');
     background-repeat: no-repeat;
@@ -34,7 +35,7 @@ button.btn.btn-block {
      background-position-y: center;
 }
 .dualdegreeText{
-    font-size: 22.8px;
+    font-size: 22px;
     top: 96px;
 }
 .dualdegreeRow{
