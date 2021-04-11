@@ -57,18 +57,23 @@ footer ul a{
     line-height: 30px;
 }
 .footer-col .footerleft{
-    font-weight: 500;
-}
-.footer-col h5{
-    font-size: medium;
-}
-.footer-widget{
-    font-weight: 320;
-}
-.fw-content{
-    font-size: medium;
+    font-size: 15px;
+    font-weight: 600;
     color: #262626;
 }
+.footer-col h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-widget p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.fw-content{
+    font-size: 14px;
+    font-weight: 400;
+} 
+
 .joinTheProgram{
     padding-right:11rem!important;
 }
@@ -97,10 +102,12 @@ footer ul a{
     top: -41px; 
     position: relative;
     color: #ffffff; border: 1px solid;
-    border-radius: 20px;
-    width: 123px;
+    border-radius: 30px;
+    width: 130px;
     height: 46px;
-    background: linear-gradient( #B10F56 2.8%, #D00846); font-size: smaller;
+    background: linear-gradient( #B10F56 2.8%, #D00846);
+     font-size: 12px;
+     font-weight: 600;
 }
 
 
@@ -197,9 +204,7 @@ footer ul a{
         font-size: 13px;
     }
     
-    .fw-content ul li{
-        display: inline;
-    }
+    
     .footer-widget p{
         font-size: 17px;
         line-height: 25px;
@@ -227,6 +232,9 @@ footer ul a{
     } 
     .banner-img-2{
         display: none;
+    }
+    .fw-content ul li{
+        display: inline;
     }
 }
 
