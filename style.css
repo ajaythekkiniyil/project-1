@@ -1,4 +1,7 @@
 
+.dropdown{
+    display: none;
+}
 .header-banner{
     background-image:linear-gradient(to right,#a4123ee8  ,#af0c3da2 ),   url('amrita-banner1.jpeg');
     background-repeat: no-repeat;
@@ -235,6 +238,9 @@ footer ul a{
     }
     .fw-content ul li{
         display: inline;
+    }
+    .dropdown{
+        display: block;
     }
 }
 
