@@ -28,7 +28,7 @@ button.btn.btn-block {
     height: 622px;
 } */
 .banner-img-3{
-    background: linear-gradient(to right,#ff044fbd  ,#af0c3dab ), url('amrita_univerty\ 1.png');
+    background: linear-gradient(to right, #af0c3db6 ,#af0c3da6 ), url('amrita_univerty\ 1.png');
     background-repeat: no-repeat; 
     background-size: cover;
      background-position-y: center;
@@ -67,11 +67,11 @@ footer ul a{
 }
 .footer-widget p{
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .fw-content{
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
 } 
 
 .joinTheProgram{
