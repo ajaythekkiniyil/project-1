@@ -203,34 +203,71 @@
         </div>
     </section>
 
-    <!-- <div class="container">
-        <div class="dropdown">
-            <div class="col-12 pl-lg-0 btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
+
+
+    <style>
+        .dropdown-toggle::after {
+            content: none;
+        }
+
+        .arrow {
+            border: solid #656565;
+            border-width: 0 1px 1px 0;
+            display: inline-block;
+            padding: 3px;
+            left: 124px;
+            top: -1px;
+            position: relative;
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .dropdown-item {
+            height: 45px;
+            width: 280px;
+            font-weight: 600;
+            font-size: 12px;
+            background-color: white;
+            border: 1px solid #f8e7eb;
+        }
+    </style>
+    <section style="font-family: 'Montserrat';">
+        <div class="dropdown pt-5 text-center pb-5">
+            <div class="col">
                 <img src="h-topline.png" alt="">
-                <h1 class="amrita-color" style="font-size: 25px; line-height: 30px; background: -webkit-linear-gradient(#B10F56, #D00846);
+                <h3 class="amrita-color pb-3" style="background: -webkit-linear-gradient(#B10F56, #D00846);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;">
                     <b>
                         WHATS YOUR <br>
                         INTEREST?
                     </b>
-                </h1>
+                </h3>
             </div>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <ul class="pl-4 pl-lg-1">
-                    <li>Agriculture</li>
-                    <li>Architecture</li>
-                    <li>Arts & Sciences</li>
-                    <li>Ayurveda</li>
-                    <li>Biotechnology</li>
-                </ul>
+
+            <button class="btn dropdown-toggle" type="button" id="" data-toggle="dropdown"
+                style="width: 280px;height: 45px; background-color: white;border: 1px solid #f8e7eb;">
+                <p><i class="arrow down"></i></p>
+                <span style=" color: #656565;
+                left: -84px;
+                top: -38px;
+                position: relative;font-size: 14px;">Amritapuri</span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Agriculture</a>
+                <a class="dropdown-item" href="#">Architecture</a>
+                <a class="dropdown-item" href="#">Arts & Sciences</a>
+                <a class="dropdown-item" href="#">Ayurveda</a>
+                <a class="dropdown-item" href="#">Biotechnology</a>
+
             </div>
         </div>
-    </div> -->
+    </section>
 
-
-    <section style="font-family: 'Montserrat';" class="pb-5">
+    <section style="font-family: 'Montserrat';" class="pb-5 whatsYourInterest">
         <div class="container pt-5 pb-lg-5">
             <div class="row pb-lg-5">
                 <div class="col-12 pl-lg-0">
@@ -386,7 +423,7 @@
                     <img src="pic-v2.jpg" alt="" class="col pl-0 pr-0">
                     <div class="col icon2">
                         <img src="icn-vdo.png" class="col-2 " alt="">
-                        <p class="text-white pl-3 pt-2">Study BTech @ Amrita Vishwa <br>
+                        <p class="text-white pl-3 pt-3">Study BTech @ Amrita Vishwa <br>
                             Vidyapeetham</p>
                     </div>
                 </div>
@@ -394,7 +431,7 @@
                     <img src="pic-v3.jpg" alt="" class="col pl-0 pr-0">
                     <div class="col icon2">
                         <img src="icn-vdo.png" class="col-2 " alt="">
-                        <p class="text-white pl-3 pt-2">Amrita Institute of Medical <br>
+                        <p class="text-white pl-3 pt-3">Amrita Institute of Medical <br>
                             Sciences</p>
                     </div>
                 </div>

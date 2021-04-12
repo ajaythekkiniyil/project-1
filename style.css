@@ -31,7 +31,7 @@ button.btn.btn-block {
     height: 622px;
 } */
 .banner-img-3{
-    background: linear-gradient(to right, #af0c3db6 ,#af0c3da6 ), url('amrita_univerty\ 1.png');
+    background: linear-gradient( #ad1140a8 ,#af0438b6 ), url('amrita_univerty\ 1.png');
     background-repeat: no-repeat; 
     background-size: cover;
      background-position-y: center;
@@ -241,6 +241,9 @@ footer ul a{
     }
     .dropdown{
         display: block;
+    }
+    .whatsYourInterest{
+        display: none;
     }
 }
 
