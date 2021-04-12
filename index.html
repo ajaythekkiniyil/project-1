@@ -204,8 +204,98 @@
     </section>
 
 
+    <section style="font-family: 'Montserrat';">
+        <style>
+            .arrow {
+                border: solid #656565;
+                border-width: 0 1px 1px 0;
+                display: inline-block;
+                padding: 3px;
+            }
 
-    <style>
+            .down {
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                top: -27px;
+                right: 10px;
+                position: relative;
+            }
+
+            .dropdownButton {
+                width: 342px;
+                height: 70px;
+                background-color: white;
+                border: 1px solid #f8e7eb;
+            }
+
+            .container .dropdown-item {
+                display: none;
+                height: auto;
+            }
+        </style>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("button").click(function () {
+                    $("p").toggle();
+                });
+            });
+        </script>
+
+        <div class="container text-center pt-5 pb-5">
+            <div class="col">
+                <img src="h-topline.png" alt="">
+                <h3 class="amrita-color pb-3" style="background: -webkit-linear-gradient(#B10F56, #D00846);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;">
+                    <b>
+                        WHATS YOUR <br>
+                        INTEREST?
+                    </b>
+                </h3>
+            </div>
+            <button class="dropdownButton text-left pt-3 pl-3">Amritapuri<p class="text-right"><i
+                        class="arrow down"></i>
+                </p>
+            </button>
+            <p class="dropdown-item text-left">
+                <a>Agriculture</a>
+            </p>
+            <p class="dropdown-item text-left">
+                <a>Architecture</a><br>
+            </p>
+            <p class="dropdown-item text-left">
+                <a>Arts & Sciences</a>
+            </p>
+            <p class="dropdown-item text-left">
+                <a>Ayurveda</a><br>
+            </p>
+            <p class="dropdown-item text-left">
+                <a>Biotechnology</a><br>
+            </p>
+
+            <p class="dropdown-item text-left">
+                <a>Business</a>
+            </p>
+            <p class="dropdown-item text-left">
+                <a>Communication</a><br>
+            </p>
+            <p class="dropdown-item text-left">
+                <a>Dentistry</a>
+            </p>
+            <p class="dropdown-item text-left">
+                <a>Education</a><br>
+            </p>
+            <p class="dropdown-item text-left">
+                <a>Engineering</a><br>
+            </p>
+        </div>
+    </section>
+
+
+
+    <!-- <style>
         .dropdown-toggle::after {
             content: none;
         }
@@ -257,15 +347,14 @@
                 position: relative;font-size: 14px;">Amritapuri</span>
             </button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Agriculture</a>
-                <a class="dropdown-item" href="#">Architecture</a>
-                <a class="dropdown-item" href="#">Arts & Sciences</a>
-                <a class="dropdown-item" href="#">Ayurveda</a>
-                <a class="dropdown-item" href="#">Biotechnology</a>
+                
 
             </div>
         </div>
-    </section>
+    </section> -->
+
+
+
 
     <section style="font-family: 'Montserrat';" class="pb-5 whatsYourInterest">
         <div class="container pt-5 pb-lg-5">
@@ -375,13 +464,11 @@
             width: 100%;
             height: auto;
             font-family: 'Montserrat';
-            /* max-width: 100%; */
         }
 
         .container1 img {
             width: 100%;
             height: auto;
-            /* background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pic-v1.jpg'); */
         }
 
 
@@ -528,8 +615,10 @@
                         </div>
                         <div class="col-md-3 col-lg-3 pt-4  pt-lg-5">
                             <img src="image 12.png" alt="" class="pb-2 pt-lg-4"><br>
-                            <p style="font-size: 15px;font-weight: 700;">Outstanding faculty <br> from India and <br>
-                                abroad</p>
+                            <p style="font-size: 15px;font-weight: 700;">Outstanding faculty <br> from India and
+                                <br>
+                                abroad
+                            </p>
                         </div>
                         <div class="col-md-3 col-lg-3 pt-4  pt-lg-5">
                             <img src="image 13.png" alt="" class="pb-2 pt-lg-4"><br>
@@ -559,7 +648,8 @@
                     <h1 class="pt-5" style="font-size: 50px;  color: #B30F56;">
                         <b>JOIN AMRITA</b>
                     </h1>
-                    <p style="font-size: 24px; font-weight: 400; line-height: 32px;">Following these steps can help make
+                    <p style="font-size: 24px; font-weight: 400; line-height: 32px;">Following these steps can help
+                        make
                         your <br>
                         application experience
                         simple and <br>
@@ -608,7 +698,8 @@
                         University is
                         a
                         place where one can learn, make the <br> fullest of their time and enjoy many
-                        such life preaching <br> activities. During my stay at Amrita University for a total of three
+                        such life preaching <br> activities. During my stay at Amrita University for a total of
+                        three
                         <br>
                         year
                     </p>
@@ -629,7 +720,8 @@
         <div class="container pt-5 pb-5">
             <div class="row">
                 <div class="col-12 col-md-7 text-center text-md-right text-lg-right pr-lg-0 ">
-                    <h3 class="text-white admission pr-lg-4"> <b style="font-size: smaller;">ADMISSION OPEN FOR 2019</b>
+                    <h3 class="text-white admission pr-lg-4"> <b style="font-size: smaller;">ADMISSION OPEN FOR
+                            2019</b>
                     </h3>
                 </div>
                 <div class="col-12 col-md-5 text-center text-md-left text-lg-left pt-3 pt-md-0">
